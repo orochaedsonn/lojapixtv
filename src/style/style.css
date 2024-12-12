@@ -81,9 +81,10 @@ header {
     transform: translateY(-10px) rotate(-45deg);
 }
 
+
 /* Estilos responsivos */
 @media (max-width: 768px) {
-    .menu-toggle {
+    .menu-toggle  {
         display: flex;
     }
 
@@ -118,6 +119,18 @@ header {
         overflow: hidden;
         
     }
+
+    .footer-mobile {
+        display: none;
+        margin: auto 0 60px;
+        
+    }
+    
+    
+    
 }
+
+
+
 
 
