@@ -55,22 +55,22 @@ header {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     background: none;
     border: none;
     cursor: pointer;
 }
 
 .menu-toggle .bar {
-    height: 3px;
+    height: 4px;
     width: 100%;
     background-color: white;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .menu-toggle.active .bar:nth-child(1) {
-    transform: translateY(10px) rotate(45deg);
+    transform: translateY(11.7px) rotate(45deg);
 }
 
 .menu-toggle.active .bar:nth-child(2) {
@@ -78,7 +78,7 @@ header {
 }
 
 .menu-toggle.active .bar:nth-child(3) {
-    transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-11.7px) rotate(-45deg);
 }
 
 
@@ -107,6 +107,7 @@ header {
     .navbar ul {
         flex-direction: column;
         gap: 16px;
+        text-decoration: none;
     }
 
     .navbar.show {
@@ -130,9 +131,88 @@ header {
 
     /* Footer responsivo */
    
+    
+    
    footer {
     background-color: var(--cor-box);
    }
 
+   .footer-logo p{
+    width: 400px;
+    padding-left: 8px;
+   }
+
+   .midias ul li {
+    display: inline;
+    font-size: 2rem;
+    color: var(--cor-principal);
+    margin: 0 8px;
+   }
+
+   .midias ul li i{
+    cursor: pointer;
+    list-style: none;
+    transition: all 0.4s;
+   }
+
+   .midias ul li i:hover {
+    opacity: 0.8;
+   }
 
 
+   .footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 16px;
+   }
+
+   .footer-content ul li {
+    list-style: none;
+    padding: 6px;
+   }
+   
+   .footer-content a{
+    text-decoration: none;
+    color:#000000;
+   }
+
+   .footer-content h4 {
+    padding:8px;
+   }
+
+   .footer-pagamento ul li {
+    display: inline;
+    
+   }
+
+
+   .footer-pagamento img{
+    max-width: 65px;
+   }
+
+   .copy {
+    background-color: var(--cor-principal);
+    color: var(--cor-box);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 8px 0;
+    font-size: 14px;
+   }
+
+   .copy p a{
+    text-decoration: none;
+    color: var(--cor-box);
+   }
+
+   .copy p a:hover {
+    opacity: 0.8;
+    transition: all 0.4s;
+   }
+
+   @media screen and (max-width: 768px) {
+    .footer-content {
+        grid-template-columns:none;
+    }
+    
+}

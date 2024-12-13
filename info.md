@@ -6,3 +6,4 @@ O projeto consiste em criar um front resposivo, para a loja pix tv, e a indea e 
 
 
 2. Ddesenvolver header responsiva. 
+foi criado a header responsiva, mas algumas melhorias ainda precisam ser implantadas, a ajustar menu toggle, ajustar menu hamburger. versão 1.0
