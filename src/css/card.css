@@ -66,13 +66,18 @@
 
 .btn-compra {
     width: 100%;
-    background-color: black;
+    background-color: var(--cor-principal);
     color: white;
     padding: 15px;
     font-weight: 500;
 }
 
-.cor-produto {
+.btn-compra:hover {
+    background-color: #024606;
+    transition: 0.5s;   
+}
+
+.btn-whatsapp {
     display: flex;
     gap: 14px;
     justify-content: center;
@@ -81,7 +86,7 @@
     border-radius: 40px;
 }
 
-.cor-produto span {
+.btn-whatsapp span {
     width: 18px;
     height: 18px;
     border-radius: 50%;
@@ -90,7 +95,12 @@
     transition: 0.5s;
 }
 
-.cor-produto span:hover {
+.btn-whatsapp a {
+    text-decoration: none;
+    color:#037009;
+}
+
+.btn-whatsapp span:hover {
     transition: 0.5s;
     transform: scale(1.7);
 }
