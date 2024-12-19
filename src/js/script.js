@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener( 'DOMContentLoaded', function() {
     var splide = new Splide( '.splide', {
         autoplay:true,
-        type   : 'loop',
+        type: 'loop',
+        speed: number = 500,
         
     } );
     splide.mount();
