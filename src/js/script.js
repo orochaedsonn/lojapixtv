@@ -14,12 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-
-  var splide = new Splide( '.splide', {
-    type   : 'loop',
-    padding: '5rem',
+document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide', {
+        autoplay:true,
+        type   : 'loop',
+        
+    } );
+    splide.mount();
+    
   } );
-  
-  splide.mount(); 
-
-
