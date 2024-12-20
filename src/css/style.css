@@ -33,6 +33,18 @@ header {
     width: 100%;
 }
 
+.bloco-texto {
+    display: block;
+    padding-top: 16px;
+}
+
+.bloco-texto h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+
 .logo img {
     height: 48px;
     max-width: 100%;

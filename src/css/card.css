@@ -105,17 +105,6 @@
     transform: scale(1.7);
 }
 
-#vermelho {
-    background-color: crimson;
-}
-
-#preto {
-    background-color: black;
-}
-
-#laranja {
-    background-color: #fe7427;
-}
 
 .btn-compra {
     cursor: pointer;
@@ -126,6 +115,66 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
 }
 
+.download-app {
+    padding-top: 16px;
+    align-items: center
+}
+
+.download-app h2{
+    text-align: center;
+}
+
+.card {
+    display:block;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 16px 16px;
+    width: 300px;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+}
+
+.grid-colum {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 25px;
+    margin: 10px;
+    
+   
+    
+}
+
+.card-imagem img {
+    max-width: 250px;
+    align-items: center;
+}
+
+ .text-colum {
+    display: block;
+    margin:  0 auto;
+ }
+
+ .text-colum h2 {
+    text-align: center;
+ }
+
+ p {
+    text-align: center;
+ }
+
+.text-colum button {
+    color: #f2f0f0;
+    background-color: #037009;
+    width: 100%;
+    padding: 8px 0 8px 0;
+    font-size: 1.1rem;
+    margin-top: 16px;
+ }
 
